@@ -2,3 +2,22 @@ body{
   color: $text-color;
   font-family: $font;
 }
+
+.btn{
+  padding:8px 20px;
+  color: white;
+  background-color: #30488f;
+  border: none;
+  border-radius: 5px;
+  &:hover{
+    background-color: #233569;
+    cursor: pointer;
+  }
+  i{
+    padding-right: 10px;
+  }
+}
+
+li:hover{
+  cursor: pointer;
+}
