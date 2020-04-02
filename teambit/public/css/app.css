@@ -1,0 +1,138 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #58402c;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #58402c;
+}
+
+header nav .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+header nav .nav-right li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 15px;
+}
+
+header .jumbotron {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+header .jumbotron .jumbo-left {
+  width: 45%;
+}
+
+header .jumbotron .jumbo-left h2 {
+  font-size: 45px;
+  line-height: 65px;
+}
+
+header .jumbotron .jumbo-left h3 {
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header .jumbotron .jumbo-right {
+  width: 55%;
+}
+
+header .jumbotron .jumbo-right img {
+  width: 570px;
+}
+
+/* MAIN */
+
+.salmon-row {
+  width: 100%;
+  background-color: #ffe7d2;
+}
+
+.salmon-row .small-container {
+  width: 900px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.salmon-row .small-container h3 {
+  font-size: 25px;
+  padding: 0 40px;
+}
+
+.salmon-row .small-container .division {
+  margin: 70px 0;
+  width: 100%;
+  border-top: 1px solid #c9c9c9;
+}
+
+.salmon-row .small-container .box-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.salmon-row .small-container img {
+  width: 270px;
+  padding-top: 80px;
+}
+
+.salmon-row .small-container .box {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.salmon-row .small-container .box img {
+  max-width: 140px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-bottom: 30px;
+}
+
+.salmon-row .small-container .box .cat {
+  width: 60px;
+}
+
+.salmon-row .small-container .box p {
+  padding: 0 40px;
+}
+
+/* FOOTER */
+
