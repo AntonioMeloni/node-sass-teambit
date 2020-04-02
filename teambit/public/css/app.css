@@ -252,3 +252,47 @@ header .jumbotron .jumbo-right img {
 
 /* FOOTER */
 
+.footer-container {
+  width: 1200px;
+  margin: 80px auto;
+  display: flex;
+}
+
+.footer-container p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-container .footer-left {
+  width: 35%;
+  padding-right: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-container .footer-left img {
+  height: 50px;
+}
+
+.footer-container .footer-left p {
+  padding: 0 30px;
+}
+
+.footer-container .footer-right {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container .footer-right .list {
+  width: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container .footer-right .list li {
+  list-style: none;
+  padding: 10px 0;
+  font-size: 13px;
+}
+
